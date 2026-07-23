@@ -1,8 +1,13 @@
 aid: ayar-labs
 name: Ayar Labs
-description: Ayar Labs is a company surfaced as a portfolio company of insight-partners, playground-global
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Ayar Labs is a silicon-photonics company that develops co-packaged optics
+  (CPO) and optical I/O technology to replace copper interconnects with light. Its
+  products, including the TeraPHY optical engine and SuperNova external light source,
+  connect thousands of GPUs across racks to deliver the bandwidth density and energy
+  efficiency required by hyperscale AI infrastructure. Ayar Labs is backed by Insight
+  Partners and Playground Global. It ships hardware and optical-interconnect technology
+  rather than a public developer API; this API Evangelist profile tracks the company's
+  public web properties and domain security posture.
 url: https://raw.githubusercontent.com/api-evangelist/ayar-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +16,30 @@ x-backed-by:
 - playground-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://ayarlabs.com/wp-content/uploads/2026/03/Ayar_Labs_icon_RGB.png
 tags:
 - Company
+- Silicon Photonics
+- Co-Packaged Optics
+- Optical I/O
+- Semiconductors
+- AI Infrastructure
+- GPU Interconnect
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ayar-labs-domain-security.yml
+- type: LLMsTxt
+  url: llms/ayar-labs-llms.txt
 - type: Website
   url: https://ayarlabs.com/
+- type: Blog
+  url: https://ayarlabs.com/blog/
+- type: Support
+  url: https://ayarlabs.com/contact/
+- type: PrivacyPolicy
+  url: https://ayarlabs.com/privacy-policy/
+- type: TermsOfService
+  url: https://ayarlabs.com/terms-conditions/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,29 @@
+# Ayar Labs
+
+> Ayar Labs develops co-packaged optics (CPO) and optical I/O technology that replaces copper interconnects with silicon-photonics-based optical links, connecting thousands of GPUs across racks for hyperscale AI infrastructure.
+
+Ayar Labs is a semiconductor / silicon-photonics company, not a public API provider. It ships hardware and optical-interconnect technology (TeraPHY optical engine, SuperNova light source) rather than a developer-facing web API. As of this writing there is no public developer API, SDK, OpenAPI specification, GitHub organization, or MCP server surfaced by the company. This file is generated from the API Evangelist company profile (apis.yml) and is provided for agent discovery of the company's public web properties.
+
+## Company
+- [Website](https://ayarlabs.com/): Company homepage.
+- [Blog](https://ayarlabs.com/blog/): Company blog and technical articles.
+- [News / Press](https://ayarlabs.com/news/): Press releases and announcements.
+- [Resources](https://ayarlabs.com/resources/): White papers, briefs, and technical resources.
+- [Glossary](https://ayarlabs.com/glossary/): Silicon-photonics and optical-interconnect terminology.
+
+## Products & Technology
+- Co-packaged optics (CPO)
+- TeraPHY optical engine (optical I/O chiplet)
+- SuperNova external light source
+- Silicon photonics
+- Optical fabric / GPU interconnect for rack-scale AI infrastructure
+
+## Contact & Legal
+- [Contact](https://ayarlabs.com/contact/): Company contact page.
+- [Careers](https://ayarlabs.com/careers/): Open roles.
+- [Privacy Policy](https://ayarlabs.com/privacy-policy/)
+- [Terms & Conditions](https://ayarlabs.com/terms-conditions/)
+
+## Notes
+- No public developer API, SDK, or OpenAPI is published (verified: /.well-known/* and /llms.txt return 404).
+- Domain security posture (TLS/HSTS/SPF/DMARC) is captured in security/ayar-labs-domain-security.yml.
